@@ -1,0 +1,159 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color:rgba(230,34,45,0.6);
+	border-color: white;
+}
+
+.page{
+
+	width:1000px;
+	margin:0 auto;
+	overflow: hidden;
+	background-color: pink;
+	height: 1300px;
+	border-radius: 80px 0;
+		font-family: courier new ;
+
+}
+
+.sidesbar{
+float:right;
+width:200px;
+height:1000px;
+background-color:orange;
+font-size: 50
+margin:3px;
+overflow: hidden;
+font-family: sans-serif;
+font-weight: bold;
+border-radius: 80px 80px;
+}
+.content{
+ text-align: center;
+
+
+	width:800px;
+	height:auto;
+	background-image: url(fondo1.jpg); 
+	float:left;
+
+}
+
+img{
+	transition: transform 1s;
+}
+img:hover{
+	transform: scale(1.6);
+
+}
+hr {
+
+height: 10px;
+width: auto;
+  background-color:blue ;
+  padding: 10px;
+}
+.footer{
+	clear: both;
+	height:500px;	
+	background-image: url(fondo1.jpg);
+	text-align: center;
+
+	font-family: "Homer simpson UI";
+	font-style:italic;
+	font-weight:bold;
+	position: center;
+	font-size: 25px;
+}
+h5{
+	font-style: oblique;
+}
+.imagen{
+
+
+
+	height: auto;
+
+
+
+	border-radius: 30px 80px;
+
+transition: transform 0.1s;
+
+	font-family: sans-serif;
+	font-style:italic;
+	font-weight:bold;
+	position: center;
+	font-size: 25px;
+}
+
+.imagen:hover{
+	transform:scale3d(1.7);
+}
+.hola{
+	transition: transform 0.1s;
+
+
+	width:1000px;
+	margin:0 auto;
+	height: auto;
+
+	background-color: #C6A41E;
+
+	border-radius: 80px 0px;
+
+transition: transform 0.1s;
+
+	font-family: sans-serif;
+	font-style:italic;
+	font-weight:bold;
+	position: center;
+	font-size: 25px;
+
+}
+.hola:hover{
+	transform: scale(1.1);
+}
+.galeria{
+
+list-style: none;
+padding: 20px;
+box-sizing: border-box;
+width: 90%;
+margin: auto;
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+.galeria img{
+	width: 300px;
+	height: 190px;
+	border:7px solid white;
+
+
+
+
+}
+.galeria li{
+	margin: 5px;
+
+}
+
+
+.redes{
+
+	float:left;
+
+
+	width:100px;
+height:100px;
+}
+
